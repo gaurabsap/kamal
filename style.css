@@ -352,7 +352,6 @@ body {
 }
 
 .input-field textarea{
-    max-width: 70%;
     width: 70%;
     padding: 20px 20px;
     font-size: 25px;
