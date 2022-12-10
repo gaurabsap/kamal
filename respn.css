@@ -185,4 +185,7 @@
         position: relative;
         left: 15%;
     }
+    .last_image img{
+        display: none;
+    }
 }
