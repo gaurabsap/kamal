@@ -1,0 +1,399 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 15, 83);
+    font-family: 'poppins',sans-serif;
+}
+.main {
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    position: relative;
+    top: -5px;
+    left: 5%;
+}
+#logo-header {
+    font-size: 2.2em;
+    color: white;
+    font-weight: 500;
+}
+
+#logo-span {
+    color: red;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+}
+
+/* navigator */
+
+#navar {
+    /* border: 2px solid red; */
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+#navar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 15px;
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#last{
+    background-color: red;
+}
+#navar a:hover {
+    /* border: 1px solid red; */
+    opacity: 0.8;
+}
+
+
+/* <--------------second div ---------------> */
+
+
+.second-phase{
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    height: 85vh;
+    display: flex;
+    position: relative;
+    gap: 50px;
+}
+.header {
+    /* width: 100%; */
+    /* height: 80vh; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#first-head {
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#second-head {
+    color: white;
+    font-size: 45px;
+    width: 59%;
+    line-height: 80px;
+    text-transform: capitalize;
+    position: relative;
+    left: 40px;
+}
+
+#header-span {
+    color: red;
+}
+
+
+.bgm-photo img {
+    position: absolute;
+    right: 0px;
+    top: -145px;
+    /* position: fixed; */
+    width: 50%;
+    z-index: -1;
+}
+
+
+/* <-----------second phase ----------> */
+
+
+.second-main {
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    height: 80vh;
+    display: flex;
+    gap: 350px;
+}
+
+.images img {
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    left: 40%;
+    top: 70px;
+    transition: all 0.5s;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+}
+.About {
+    margin-top: 50px;
+}
+.About h1 {
+    color: white;
+    font-size: 35px;
+    color: red;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+.About p {
+    color: white;
+    text-align: justify;
+    width: 60%;
+}
+
+.About hr {
+    position: relative;
+    top: -20px;
+    left: 37px;
+    width: 280px;
+}
+
+#para-span {
+    color: red;
+}
+
+
+/* <--------------Third phase -------------> */
+
+
+.third-main{
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    height: 90vh;
+}
+.Vlog-header h1 {
+    display: inline;
+    color: red;
+    margin: 40px 40px;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+}
+.Vlog-header hr {
+    width: 250px;
+    margin-left: 75px;
+}
+
+.vlog-video {
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+
+.vlog {
+    margin: 40px 50px;
+    /* border: 1px solid red; */
+    /* width: 25%; */
+    width: 350px;
+    height: 520px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.8s;
+    position: relative;
+    /* z-index: -1; */
+    /* cursor: pointer; */
+}
+
+/* .vlog:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background: linear-gradient(rgb(0,0,0,0.6), #ff004f)
+
+} */
+
+.vlog h2 {
+    color: white;
+    text-align: center;
+    /* border: 2px solid green; */
+    padding: 10px 10px;
+    /* background: linear-gradient(#33ccff 0%, #ff99cc 100%); */
+    background: linear-gradient(#240e0e, #444663);
+    color: white;
+}
+
+.vlog img {
+    width: 380px;
+    z-index: -2;
+    transition: all 0.8s;
+}
+
+/* #oki {
+    width: 450px;
+} */
+
+.vlog img:hover{
+    transform: scale(1.05);
+}
+
+
+.layer {
+    color: white;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgb(0,0,0,0), #ff004f);
+    position: absolute;
+    top: 190px;
+    transition: all 0.8s;
+}
+
+.layer button{
+    position: absolute;
+    top: 30%;
+    padding: 20px 20px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    left: 25%;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+/* <--------------------Contact----------------> */
+
+
+.Contact {
+    /* border: 2px solid red; */
+    /* height: 110vh; */
+    margin-top: 150px;
+    display: flex;
+    gap: 100px;
+    
+}
+
+
+.contact-form{
+    /* border: 2px solid green; */
+    padding-left: 50px;
+    width: 150%;
+    /* margin-top: 300px; */
+}
+
+.contact-header {
+    margin-top: 50px;
+    
+}
+
+.contact-header h1 {
+    color: red;
+    text-align: center;
+    position: relative;
+    left: 50%;
+}
+
+.contact-header hr{
+    width: 210px;
+    display: block;
+    position: relative;
+    left: 85%;
+    
+}
+
+.input-field {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+    padding: 5px 0px;
+    margin-top: 85px;
+
+}
+
+.input-field label{
+    color: white;
+    margin: 10px 10px;
+    position: relative;
+    display: inline-block;
+    pointer-events: none;
+    transition: all 0.8s;
+    top: -80px;
+}
+
+.input-field input{
+    font-size: 20px;
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid red;
+    width: 70%;
+    margin-bottom: 40px;
+    outline: none;
+
+}
+
+
+.input-field input:focus{
+    color: white;
+}
+
+.input-field input:focus ~ label {
+    top: -110px
+}
+
+.input-field textarea{
+    max-width: 70%;
+    width: 70%;
+    padding: 20px 20px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid red;
+    color: white;
+    outline: none;
+}
+
+.input-field button {
+    padding: 15px 10px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid red;
+    color: white;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.input-field button:hover {
+    opacity: 0.8;
+}
+.last_image{
+    /* border: 2px solid red; */
+    margin-right: 100px;
+    position: relative;
+    top: 250px;
+}
+
+.last_image img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+#foot {
+    border: 1px solid red;
+}
+
+
+
+
